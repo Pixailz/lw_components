@@ -1,0 +1,69 @@
+Decoder:
+    column: "Combinational"
+    category: "Decoder"
+    logicCode: PixLogicWorldComponents.Server.DecoderServer
+    prefabGenerator: PixLogicWorldComponents.Client.DecoderPrefab
+    placingRulesGenerator: PixLogicWorldComponents.Client.DecoderPlacingRules
+
+DoubleDabble:
+    column: "Combinational"
+    category: "DoubleDabble"
+    logicCode: PixLogicWorldComponents.Server.DoubleDabbleServer
+    prefabGenerator: PixLogicWorldComponents.Client.DoubleDabblePrefab
+    placingRulesGenerator: PixLogicWorldComponents.Client.DoubleDabblePlacingRules
+
+Multiplexer:
+    column: "Combinational"
+    category: "Multiplexer"
+    logicCode: PixLogicWorldComponents.Server.MultiplexerServer
+    clientCode: PixLogicWorldComponents.Client.MultiplexerClient
+    prefabGenerator: PixLogicWorldComponents.Client.MultiplexerPrefab
+    placingRulesGenerator: PixLogicWorldComponents.Client.MultiplexerPlacingRules
+
+MultiplexerFast1:
+    column: "Combinational"
+    category: "Multiplexer"
+    logicCode: PixLogicWorldComponents.Server.MultiplexerFastServer
+    clientCode: PixLogicWorldComponents.Client.MultiplexerFastClient
+    prefabGenerator: PixLogicWorldComponents.Client.MultiplexerFastPrefab
+    placingRulesGenerator: PixLogicWorldComponents.Client.MultiplexerFastPlacingRules
+    codeInfoInts:
+        - 1 # Selector Number
+
+MultiplexerFast2:
+    column: "Combinational"
+    category: "Multiplexer"
+    logicCode: PixLogicWorldComponents.Server.MultiplexerFastServer
+    clientCode: PixLogicWorldComponents.Client.MultiplexerFastClient
+    prefabGenerator: PixLogicWorldComponents.Client.MultiplexerFastPrefab
+    placingRulesGenerator: PixLogicWorldComponents.Client.MultiplexerFastPlacingRules
+    codeInfoInts:
+        - 2 # Selector Number
+
+MultiplexerFast3:
+    column: "Combinational"
+    category: "Multiplexer"
+    logicCode: PixLogicWorldComponents.Server.MultiplexerFastServer
+    clientCode: PixLogicWorldComponents.Client.MultiplexerFastClient
+    prefabGenerator: PixLogicWorldComponents.Client.MultiplexerFastPrefab
+    placingRulesGenerator: PixLogicWorldComponents.Client.MultiplexerFastPlacingRules
+    codeInfoInts:
+        - 3 # Selector Number
+
+MultiplexerFast4:
+    column: "Combinational"
+    category: "Multiplexer"
+    logicCode: PixLogicWorldComponents.Server.MultiplexerFastServer
+    clientCode: PixLogicWorldComponents.Client.MultiplexerFastClient
+    prefabGenerator: PixLogicWorldComponents.Client.MultiplexerFastPrefab
+    placingRulesGenerator: PixLogicWorldComponents.Client.MultiplexerFastPlacingRules
+    codeInfoInts:
+        - 4 # Selector Number
+
+Demultiplexer:
+    column: "Combinational"
+    category: "Demultiplexer"
+    logicCode: PixLogicWorldComponents.Server.DemultiplexerServer
+    clientCode: PixLogicWorldComponents.Client.DemultiplexerClient
+    prefabGenerator: PixLogicWorldComponents.Client.DemultiplexerPrefab
+    placingRulesGenerator: PixLogicWorldComponents.Client.DemultiplexerPlacingRules

@@ -1,0 +1,10 @@
+ID: PixLogicWorldComponents
+Name: Pixailz Logic World Components
+Author: Pixailz
+Version: 0.0.3
+Priority: 0
+
+ClientDependencies:
+    - EccsGuiBuilder
+    - EccsLogicWorldAPI
+    - PixLogicWorldUtils

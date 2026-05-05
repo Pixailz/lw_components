@@ -1,0 +1,63 @@
+# ============================================================================ #
+ComponentColumn.Memory: "Memory"
+# ---------------------------------------------------------------------------- #
+ComponentCategory.Register: "Register"
+
+PixLogicWorldComponents.Register: "Register"
+# ---------------------------------------------------------------------------- #
+ComponentCategory.Ram: "Ram"
+
+PixLogicWorldComponents.Ram: "RAM"
+PixLogicWorldComponents.DoubleReadRam: "Double Read RAM"
+# ============================================================================ #
+
+# ============================================================================ #
+ComponentColumn.Displays: "Displays"
+# ---------------------------------------------------------------------------- #
+ComponentCategory.Screen: "Screen"
+
+PixLogicWorldComponents.Screen: "Screen Display"
+# ---------------------------------------------------------------------------- #
+ComponentCategory.SevenSegment: "Seven Segment"
+
+PixLogicWorldComponents.SevenSegment: "Seven Segment Display"
+# ---------------------------------------------------------------------------- #
+ComponentCategory.HexDisplay: "Hexadecimal"
+
+PixLogicWorldComponents.HexDisplay: "Hexadecimal Display"
+# ============================================================================ #
+
+# ============================================================================ #
+ComponentColumn.Combinational: "Combinational Circuits"
+# ---------------------------------------------------------------------------- #
+ComponentCategory.Decoder: "Decoder"
+
+PixLogicWorldComponents.Decoder: "Decoder"
+# ---------------------------------------------------------------------------- #
+ComponentCategory.DoubleDabble: "Double Dabble"
+
+PixLogicWorldComponents.DoubleDabble: "Double Dabble"
+# ---------------------------------------------------------------------------- #
+ComponentCategory.Multiplexer: "Multiplexer"
+
+PixLogicWorldComponents.Multiplexer: "Multiplexer"
+PixLogicWorldComponents.MultiplexerFast1: "Multiplexer Fast 2:1"
+PixLogicWorldComponents.MultiplexerFast2: "Multiplexer Fast 4:1"
+PixLogicWorldComponents.MultiplexerFast3: "Multiplexer Fast 8:1"
+PixLogicWorldComponents.MultiplexerFast4: "Multiplexer Fast 16:1"
+# ---------------------------------------------------------------------------- #
+ComponentCategory.Demultiplexer: "Demultiplexer"
+
+PixLogicWorldComponents.Demultiplexer: "Demultiplexer"
+# ============================================================================ #
+
+# ============================================================================ #
+ComponentColumn.Miscellaneous: "Miscellaneous"
+# ---------------------------------------------------------------------------- #
+ComponentCategory.Test: "Test"
+
+PixLogicWorldComponents.DummyTest: "Dummy Test Component"
+# ---------------------------------------------------------------------------- #
+
+PixLogicWorldComponents.Pulser: "Pulser"
+# ============================================================================ #

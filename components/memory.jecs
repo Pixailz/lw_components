@@ -1,0 +1,26 @@
+Register:
+    column: "Memory"
+    category: "Register"
+    logicCode: PixLogicWorldComponents.Server.RegisterServer
+    prefabGenerator: PixLogicWorldComponents.Client.RegisterPrefab
+    placingRulesGenerator: PixLogicWorldComponents.Client.RegisterPlacingRules
+
+Ram:
+    column: "Memory"
+    category: "Ram"
+    logicCode: PixLogicWorldComponents.Server.MultiReadRamServer
+    clientCode: PixLogicWorldComponents.Client.MultiReadRamClient
+    prefabGenerator: PixLogicWorldComponents.Client.MultiReadRamPrefab
+    placingRulesGenerator: PixLogicWorldComponents.Client.MultiReadRamPlacingRules
+    codeInfoInts:
+        - 1 # ReadNumber
+
+DoubleReadRam:
+    column: "Memory"
+    category: "Ram"
+    logicCode: PixLogicWorldComponents.Server.MultiReadRamServer
+    clientCode: PixLogicWorldComponents.Client.MultiReadRamClient
+    prefabGenerator: PixLogicWorldComponents.Client.MultiReadRamPrefab
+    placingRulesGenerator: PixLogicWorldComponents.Client.MultiReadRamPlacingRules
+    codeInfoInts:
+        - 2 # ReadNumber
