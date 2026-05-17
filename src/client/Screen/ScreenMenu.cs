@@ -18,7 +18,8 @@ namespace PixLogicWorldComponents.Client.Menus
 
 		public static void init()
 		{
-			WS.window("PixLogicWorldComponents - Screen")
+			WS.window("PixLogicWorldComponents-Screen")
+				.setLocalizedTitle("PixLogicWorldComponents - Screen")
 				.setYPosition(150)
 				.configureContent(content => content
 					.layoutVertical()

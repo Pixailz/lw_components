@@ -1,0 +1,7 @@
+RingCounter:
+    column: "Sequential"
+    category: "Counter"
+    logicCode: PixLogicWorldComponents.Server.RingCounterServer
+    clientCode: PixLogicWorldComponents.Client.RingCounterClient
+    prefabGenerator: PixLogicWorldComponents.Client.RingCounterPrefab
+    placingRulesGenerator: PixLogicWorldComponents.Client.RingCounterPlacingRules

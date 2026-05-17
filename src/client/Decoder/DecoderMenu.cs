@@ -15,7 +15,8 @@ namespace PixLogicWorldComponents.Client.Menus
 	{
 		public static void init()
 		{
-			WS.window("PixLogicWorldComponents - Decoder")
+			WS.window("PixLogicWorldComponents-Decoder")
+				.setLocalizedTitle("PixLogicWorldComponents - Decoder")
 				.setYPosition(150)
 				.configureContent(content => content
 					.layoutVertical()

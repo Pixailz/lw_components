@@ -18,7 +18,8 @@ namespace PixLogicWorldComponents.Client.Menus
 	{
 		public static void init()
 		{
-			WS.window("PixLogicWorldComponents - Demultiplexer")
+			WS.window("PixLogicWorldComponents-Demultiplexer")
+				.setLocalizedTitle("PixLogicWorldComponents - Demultiplexer")
 				.setYPosition(150)
 				.configureContent(content => content
 					.layoutVertical()

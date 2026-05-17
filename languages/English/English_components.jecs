@@ -12,7 +12,7 @@ PixLogicWorldComponents.DoubleReadRam: "Double Read RAM"
 # ============================================================================ #
 
 # ============================================================================ #
-ComponentColumn.Displays: "Displays"
+ComponentColumn.Display: "Display"
 # ---------------------------------------------------------------------------- #
 ComponentCategory.Screen: "Screen"
 
@@ -28,7 +28,7 @@ PixLogicWorldComponents.HexDisplay: "Hexadecimal Display"
 # ============================================================================ #
 
 # ============================================================================ #
-ComponentColumn.Combinational: "Combinational Circuits"
+ComponentColumn.Combinational: "Combinational Circuit"
 # ---------------------------------------------------------------------------- #
 ComponentCategory.Decoder: "Decoder"
 
@@ -49,6 +49,14 @@ PixLogicWorldComponents.MultiplexerFast4: "Multiplexer Fast 16:1"
 ComponentCategory.Demultiplexer: "Demultiplexer"
 
 PixLogicWorldComponents.Demultiplexer: "Demultiplexer"
+# ============================================================================ #
+
+# ============================================================================ #
+ComponentColumn.Sequential: "Sequential Circuit"
+# ---------------------------------------------------------------------------- #
+ComponentCategory.Counter: "Counter"
+
+PixLogicWorldComponents.RingCounter: "Ring Counter"
 # ============================================================================ #
 
 # ============================================================================ #

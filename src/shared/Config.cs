@@ -600,4 +600,36 @@ namespace PixLogicWorldComponents.Shared.Config
 		public static readonly int	DefaultInput	= DefaultDataWidth + DefaultSelectorWidth;
 		public static readonly int	DefaultOutput	= DefaultDataWidth * (1 << DefaultSelectorWidth);
 	}
+
+	public static class CRingCounter
+	{
+		public static readonly Color24	BlockColor = Color24.AlizarinCrimson;
+		public static readonly float	BlockDepth = 1f;
+		public static readonly float	BlockHeight = 1f;
+
+		public static readonly int	DefaultSize = 2;
+		public static readonly int	MaxSize = 256;
+		public static readonly int	MinSize = 2;
+		public static readonly int	StepSize = 1;
+
+		public static readonly int	DefaultInput	= 2;
+		public static readonly int	DefaultOutput	= CRingCounter.DefaultSize;
+
+		public static readonly float	ActionPinLength = CGlobal.ActionPinLength;
+
+		public static class Pin
+		{
+			public static readonly int	Enable		= 0;
+			public static readonly int	Reset		= 1;
+		}
+	}
+
+	public static class CDummyTest
+	{
+		public static readonly Color24	BlockColor = Color24.AlloyOrange;
+		public static readonly float	BlockDepth = 1f;
+		public static readonly float	BlockHeight = 1f;
+
+		public static readonly float	ActionPinLength = CGlobal.ActionPinLength;
+	}
 }

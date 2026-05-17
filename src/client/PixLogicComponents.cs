@@ -33,6 +33,7 @@ namespace PixLogicWorldComponents
 					MultiplexerMenu.init();
 					MultiplexerFastMenu.init();
 					DemultiplexerMenu.init();
+					RingCounterMenu.init();
 				}
 				catch(Exception e)
 				{

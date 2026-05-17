@@ -15,7 +15,8 @@ namespace PixLogicWorldComponents.Client.Menus
 	{
 		public static void init()
 		{
-			WS.window("PixLogicWorldComponents - DoubleDabble")
+			WS.window("PixLogicWorldComponents-DoubleDabble")
+				.setLocalizedTitle("PixLogicWorldComponents - DoubleDabble")
 				.setYPosition(150)
 				.configureContent(content => content
 					.layoutVertical()

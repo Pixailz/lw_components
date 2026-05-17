@@ -13,6 +13,7 @@ PixLogicWorldComponents.ColorConfiguration: "Color Configuration"
 PixLogicWorldComponents.DisplayConfigurations: "Display Configurations"
 PixLogicWorldComponents.EditConfigurations: "Edit Configurations"
 PixLogicWorldComponents.InputCount: "Input Count"
+PixLogicWorldComponents.Size: "Size"
 
 PixLogicWorldComponents.ResolutionX: "Resolution X"
 PixLogicWorldComponents.ResolutionY: "Resolution Y"

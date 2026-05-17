@@ -12,7 +12,8 @@ namespace PixLogicWorldComponents.Client.Menus
 	{
 		public static void init()
 		{
-			WS.window("PixLogicWorldComponents - DummyTest")
+			WS.window("PixLogicWorldComponents-DummyTest")
+				.setLocalizedTitle("PixLogicWorldComponents - DummyTest")
 				.setYPosition(150)
 				.configureContent(content => content
 					.layoutVertical()

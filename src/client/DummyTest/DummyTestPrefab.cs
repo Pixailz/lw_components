@@ -3,13 +3,12 @@ using LogicWorld.SharedCode.Components;
 using JimmysUnityUtilities;
 using LogicAPI.Data;
 using UnityEngine;
+using PixLogicWorldComponents.Shared.Config;
 
 namespace PixLogicWorldComponents.Client
 {
 	public class DummyTestPrefab : DynamicPrefabGenerator<int>
 	{
-		private readonly Color24 blockColor = Color24.AlienArmpit;
-
 		protected override int GetIdentifierFor(ComponentData componentData)
 			=> 0; // No variants
 
@@ -19,20 +18,18 @@ namespace PixLogicWorldComponents.Client
 		protected override Prefab GeneratePrefabFor(int identifier)
 		{
 			// Create a simple 2x2 block
-			var blocks = new Block[1];
-
-			blocks[0] = new Block
-			{
-				RawColor = blockColor,
-				Position = new Vector3(1f, 1f, 0f),
-				Scale = new Vector3(2f, 2f, 2f)
-			};
-
 			return new Prefab
 			{
-				Blocks = blocks,
-				Inputs = new ComponentInput[0],
-				Outputs = new ComponentOutput[0]
+				Blocks = [
+					new Block
+					{
+						RawColor = CDummyTest.BlockColor,
+						Position = new Vector3(1f, 1f, 0f),
+						Scale = new Vector3(2f, 2f, CDummyTest.BlockDepth)
+					}
+				],
+				Inputs = [],
+				Outputs = []
 			};
 		}
 	}
